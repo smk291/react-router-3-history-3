@@ -12,9 +12,9 @@
   "main": "lib/index",
   "module": "es/index",
   "jsnext:main": "es/index",
-  "repository": "ReactTraining/react-router",
-  "homepage": "https://github.com/ReactTraining/react-router#readme",
-  "bugs": "https://github.com/ReactTraining/react-router/issues",
+  "repository": "react-router-3-history-3",
+  "homepage": "https://github.com/smk291/react-router-3-history-3#readme",
+  "bugs": "https://github.com/smk291/react-router-3-history-3/issues",
   "scripts": {
     "build": "npm run build-cjs && npm run build-es",
     "build-cjs": "rimraf lib && cross-env BABEL_ENV=cjs babel ./modules -d lib --ignore __tests__",
@@ -28,12 +28,12 @@
     "test-node": "cross-env NODE_ENV=test mocha --require babel-register tests.node.js"
   },
   "authors": [
-    "Ryan Florence",
-    "Michael Jackson"
+    "Samuel Kurland"
   ],
   "license": "MIT",
   "dependencies": {
     "create-react-class": "^15.5.1",
+    "history3": "npm:history@3.0.0",
     "hoist-non-react-statics": "^2.3.1",
     "invariant": "^2.2.1",
     "loose-envify": "^1.2.0",
